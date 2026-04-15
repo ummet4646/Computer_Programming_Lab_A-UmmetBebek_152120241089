@@ -41,6 +41,7 @@ struct Queue {
     int rear;
 };
 
+
 void initQueue(Queue* q) { q->front = -1; q->rear = -1; }
 bool isQueueEmpty(Queue* q) { return q->front == -1 || q->front > q->rear; }
 void enqueue(Queue* q, int val) {
