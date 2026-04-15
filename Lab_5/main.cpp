@@ -82,6 +82,7 @@ void transferStack(Stack* source, Stack* destination) {
 }
 // ==========================================
 
+
 int main() {
     Stack stackA, stackB;
     initStack(&stackA);
